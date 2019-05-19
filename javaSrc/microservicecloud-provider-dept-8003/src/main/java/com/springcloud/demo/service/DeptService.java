@@ -1,0 +1,1 @@
+package com.springcloud.demo.service;import com.springcloud.demo.entity.Dept;import java.util.List;/** * \* Created with IntelliJ IDEA. * \* User: rongjichun * \* Date: 2019-04-24 19:54 * \* Description: * \ */public interface DeptService {    public boolean add(Dept dept);    public Dept    get(Long id);    public List<Dept> list();}
